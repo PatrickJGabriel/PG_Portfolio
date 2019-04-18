@@ -7,10 +7,10 @@ class Nav extends Component {
   render() {
     return (
       <div className="nav-main row">
-        <div className="col brand">
+        <div className="col-4 brand">
           <a href="#">Patrick.</a>
         </div>
-        <div className="col menu">
+        <div className="col-8 menu">
           <ul>
             <li>
               <a href="#" id="about">

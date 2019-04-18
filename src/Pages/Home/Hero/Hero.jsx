@@ -9,9 +9,9 @@ class Hero extends Component {
     return (
       <div className="hero-main row">
         <div className="col">
-          <div className="tagline-container">
+          {/* <div className="tagline-container">
             <TypistTitle />
-          </div>
+          </div> */}
           <div className="col-8 about-container">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
