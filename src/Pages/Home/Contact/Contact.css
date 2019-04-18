@@ -5,14 +5,18 @@
   padding-bottom: 120px;
 }
 
-.contact-main h1 {
+#cta {
   font-size: 3.25rem;
-  font-weight: 700;
+  /* font-weight: 600 !important; */
   padding-bottom: 120px;
 }
 
 .contact-main p {
   font-size: 1.45rem;
+}
+
+#your {
+  font-weight: 700 !important;
 }
 
 #email-text {
@@ -28,5 +32,9 @@
 @media (min-width: 320px) and (max-width: 480px) {
   .contact-main h1 {
     font-size: 2.25rem;
+  }
+
+  #cta {
+    font-size: 2.5em;
   }
 }

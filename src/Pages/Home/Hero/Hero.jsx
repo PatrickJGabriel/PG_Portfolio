@@ -14,10 +14,9 @@ class Hero extends Component {
           </div>
           <div className="col about-container">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.{" "}
+              I create minimalistic websites that put you and your product at
+              the forefront. Everything we create is important; Showcasing your
+              brand and celebrating what makes it unique is my passion.
             </p>
           </div>
           <div className="contact-container">
