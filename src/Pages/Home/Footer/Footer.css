@@ -93,3 +93,13 @@ a:focus:after {
   font-size: 1.25rem;
   font-weight: 400;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .menu {
+    margin-top: 7px;
+  }
+
+  .menu a {
+    font-size: 0.9rem;
+  }
+}

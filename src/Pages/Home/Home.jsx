@@ -16,7 +16,7 @@ class Home extends Component {
         <Nav />
         <Coffee />
         <Hero />
-        {/* <Featured /> */}
+        <Featured />
         <Contact />
         <Footer />
       </div>
