@@ -1,6 +1,10 @@
 ul li {
   display: inline-block;
-  margin: 0 40px 0 0;
+  margin: 0;
+}
+
+#about {
+  margin: 0 30px 0 0;
 }
 
 a {
@@ -82,7 +86,7 @@ a:focus:after {
 
 .menu {
   text-align: right;
-  margin-top: 7px;
+  margin-top: 4px;
 }
 
 .menu a {
