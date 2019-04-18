@@ -11,18 +11,14 @@ class Featured extends Component {
           <div className="col-12 portfolio-item text-center">
             <img
               className="img-responsive"
-              src="http://via.placeholder.com/1100x385"
+              src="http://via.placeholder.com/1100x585"
               alt=""
             />
           </div>
-          {/* <div className="col-12 portfolio-description">
-            <h1>Title</h1>
-            <p>Description</p>
-          </div> */}
           <div className="col-12 portfolio-item text-center">
             <img
               className="img-responsive"
-              src="http://via.placeholder.com/1100x385"
+              src="http://via.placeholder.com/1100x585"
               alt=""
             />
           </div>

@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 
-import "./Nav.css";
+import "./Footer.css";
 
-class Nav extends Component {
+class Footer extends Component {
   state = {};
   render() {
     return (
@@ -14,25 +14,19 @@ class Nav extends Component {
           <ul>
             <li>
               <a href="#" id="about">
-                about
+                behance
               </a>
             </li>
             <li>
               <a href="#" id="">
-                portfolio
+                instagram
               </a>
             </li>
           </ul>
-          {/* <a href="#" id="about">
-            about
-          </a>
-          <a href="#" id="portfolio">
-            portfolio
-          </a> */}
         </div>
       </div>
     );
   }
 }
 
-export default Nav;
+export default Footer;
