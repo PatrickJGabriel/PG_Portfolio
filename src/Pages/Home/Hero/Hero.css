@@ -13,6 +13,10 @@
   font-size: 1.25rem;
 }
 
+.about-container {
+  padding-left: 0 !important;
+}
+
 .contact-container {
   padding-top: 40px;
 }
@@ -22,6 +26,6 @@
 }
 
 .typist-main {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 700;
 }

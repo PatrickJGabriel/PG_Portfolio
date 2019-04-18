@@ -12,7 +12,7 @@ class Hero extends Component {
           <div className="tagline-container">
             <TypistTitle />
           </div>
-          <div className="about-container">
+          <div className="col-8 about-container">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

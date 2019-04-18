@@ -46,7 +46,7 @@
   /* box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.2); */
 }
 .smokes {
-  transform: translateX(40px);
+  transform: translateX(43px);
 }
 @-moz-keyframes shift {
   0% {
