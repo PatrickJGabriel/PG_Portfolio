@@ -1,25 +1,25 @@
 import React, { Component } from "react";
 
-import "./Nav.css";
+import "./Footer.css";
 
-class Nav extends Component {
+class Footer extends Component {
   state = {};
   render() {
     return (
       <div className="nav-main row">
-        <div className="col-4 brand">
+        <div className="col-2 brand">
           <a href="#">Patrick.</a>
         </div>
-        <div className="col-8 menu">
+        <div className="col-10 menu">
           <ul>
             <li>
               <a href="#" id="about">
-                about
+                behance
               </a>
             </li>
             <li>
               <a href="#" id="">
-                portfolio
+                instagram
               </a>
             </li>
           </ul>
@@ -35,4 +35,4 @@ class Nav extends Component {
   }
 }
 
-export default Nav;
+export default Footer;

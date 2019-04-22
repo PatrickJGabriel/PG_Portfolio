@@ -5,9 +5,21 @@ import Portfolio from "./Pages/Portfolio/Portfolio";
 import "./App.css";
 
 class App extends Component {
-  state = {
-    currentPage: "home"
-  };
+  constructor(props) {
+    super(props);
+
+    this.handleClick = this.handleClick.bind(this);
+
+    this.state = {
+      currentPage: "home"
+    };
+  }
+
+  handleClick(event) {
+    const id = event.target.id;
+    console.log(id);
+    this.setState({ currentPage: id });
+  }
 
   render() {
     let state = this.state;
@@ -15,20 +27,23 @@ class App extends Component {
 
     let page = null;
     switch (state.currentPage) {
+      case "home":
+        page = <Home handleClick={this.handleClick} />;
+        break;
       case "about":
-        page = <About />;
+        page = <About handleClick={this.handleClick} />;
         break;
       case "portfolio":
-        page = <Portfolio />;
+        page = <Portfolio handleClick={this.handleClick} />;
         break;
       default:
-        page = <Home />;
+        page = <Home handleClick={this.handleClick} />;
     }
 
     return (
       <div className="App">
-        <Home />
-        {/* {page} */}
+        {/* <Home /> */}
+        {page}
       </div>
     );
   }
