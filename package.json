@@ -1,7 +1,8 @@
 {
-  "name": "portfolio",
+  "name": "patrickjgabriel-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://patrickjgabriel.github.io/PG_Portfolio/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "react": "^16.8.6",
@@ -13,7 +14,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -52,7 +52,11 @@ class Featured extends Component {
             <img className="img-fluid" src={encore} alt="scrim" />
           </div>
           <div className="col-12 portfolio-title">
-            <a href="https://onemoresong.io/" onClick={this.props.handleClick}>
+            <a
+              href="https://onemoresong.io/"
+              target="_blank"
+              onClick={this.props.handleClick}
+            >
               <b>encore</b> - band setlist app
             </a>
           </div>

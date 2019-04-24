@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Nav from "../../Components/Nav/Nav";
 import Hero from "./Hero/Hero";
 import Featured from "./Featured/Featured";
+// import About from "./About/About";
 import Contact from "./Contact/Contact";
 import Footer from "../../Components/Footer/Footer";
 import Coffee from "./Hero/Coffee-Ico/Coffee-Ico";
@@ -20,6 +21,7 @@ class Home extends Component {
           <Hero />
         </div>
         <Featured />
+        {/* <About /> */}
         <Contact />
         <Footer handleClick={this.props.handleClick} />
       </div>
