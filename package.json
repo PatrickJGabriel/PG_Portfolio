@@ -2,7 +2,7 @@
   "name": "patrickjgabriel-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://patrickjgabriel.github.io/PG_Portfolio/",
+  "homepage": "https://patrickjgabriel.com",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "react": "^16.8.6",
