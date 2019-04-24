@@ -27,9 +27,23 @@
 }
 
 .typist-main {
-  font-size: 4.5rem;
+  /* font-size: 4.5rem; */
+  height: 150px;
+  font-size: 5vw;
   font-weight: 700;
   margin-bottom: 20px;
+}
+
+@media (min-width: 1366px) {
+  .typist-main {
+    height: 150px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .typist-main {
+    height: 100px;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
