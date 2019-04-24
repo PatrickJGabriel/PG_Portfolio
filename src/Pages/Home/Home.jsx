@@ -4,7 +4,7 @@ import Hero from "./Hero/Hero";
 import Featured from "./Featured/Featured";
 import Contact from "./Contact/Contact";
 import Footer from "../../Components/Footer/Footer";
-import Coffee from "../Home/Hero/Coffee-Ico/Coffee-Ico";
+import Coffee from "./Hero/Coffee-Ico/Coffee-Ico";
 
 import "./Home.css";
 

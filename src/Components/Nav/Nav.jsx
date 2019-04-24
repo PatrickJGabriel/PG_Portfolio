@@ -17,12 +17,12 @@ class Nav extends Component {
           <ul>
             <li>
               <a href="#" id="about" onClick={this.props.handleClick}>
-                about
+                behance
               </a>
             </li>
             <li>
               <a href="#" id="portfolio" onClick={this.props.handleClick}>
-                portfolio
+                instagram
               </a>
             </li>
           </ul>
