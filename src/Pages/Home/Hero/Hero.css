@@ -37,6 +37,7 @@
 @media (min-width: 1366px) {
   .typist-main {
     height: 150px;
+    font-size: 72px;
   }
 }
 
