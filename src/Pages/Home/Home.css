@@ -15,6 +15,10 @@
   margin-right: 75px;
 }
 
+.Hero-container {
+  height: 100%;
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
   .Home-container {
     margin-left: 15px;

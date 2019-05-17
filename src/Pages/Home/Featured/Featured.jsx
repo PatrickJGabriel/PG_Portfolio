@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { fadeIn } from "react-animations";
+import Fade from "react-reveal/Fade";
 import amps from "../../../Images/amps_portfolio.png";
 import zravia from "../../../Images/zravia_portfolio.png";
 import scrim from "../../../Images/scrim_portfolio.png";
@@ -14,7 +14,9 @@ class Featured extends Component {
       <div className="featured-main">
         <div className="row">
           <div className="col-12 portfolio-item text-center">
-            <img className="img-fluid" src={amps} alt="amps" />
+            <Fade bottom>
+              <img className="img-fluid" src={amps} alt="amps" />
+            </Fade>
           </div>
           {/* <div className="col-12 portfolio-title">
             <a
@@ -26,7 +28,9 @@ class Featured extends Component {
             </a>
           </div> */}
           <div className="col-12 portfolio-item text-center">
-            <img className="img-fluid" src={zravia} alt="zravia" />
+            <Fade bottom>
+              <img className="img-fluid" src={zravia} alt="zravia" />
+            </Fade>
           </div>
           {/* <div className="col-12 portfolio-title">
             <a
@@ -38,7 +42,9 @@ class Featured extends Component {
             </a>
           </div> */}
           <div className="col-12 portfolio-item text-center">
-            <img className="img-fluid" src={scrim} alt="scrim" />
+            <Fade bottom>
+              <img className="img-fluid" src={scrim} alt="scrim" />
+            </Fade>
           </div>
           {/* <div className="col-12 portfolio-title">
             <a
@@ -50,7 +56,9 @@ class Featured extends Component {
             </a>
           </div> */}
           <div className="col-12 portfolio-item text-center">
-            <img className="img-fluid" src={encore} alt="scrim" />
+            <Fade bottom>
+              <img className="img-fluid" src={encore} alt="scrim" />
+            </Fade>
           </div>
           {/* <div className="col-12 portfolio-title">
             <a
