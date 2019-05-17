@@ -5,7 +5,7 @@
 }
 
 .portfolio-item {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .portfolio-title {
@@ -13,7 +13,7 @@
 }
 
 .portfolio-title a {
-  font-size: 1.15rem;
+  font-size: 2rem;
   opacity: 0.9;
 }
 

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { fadeIn } from "react-animations";
 import amps from "../../../Images/amps_portfolio.png";
 import zravia from "../../../Images/zravia_portfolio.png";
 import scrim from "../../../Images/scrim_portfolio.png";
@@ -15,19 +16,19 @@ class Featured extends Component {
           <div className="col-12 portfolio-item text-center">
             <img className="img-fluid" src={amps} alt="amps" />
           </div>
-          <div className="col-12 portfolio-title">
+          {/* <div className="col-12 portfolio-title">
             <a
               href="http://www.ampshare.co"
               target="_blank"
               onClick={this.props.handleClick}
             >
-              <b>ampshare.co</b> - share your playlists
+              <b>ENCORE.CO</b>
             </a>
-          </div>
+          </div> */}
           <div className="col-12 portfolio-item text-center">
             <img className="img-fluid" src={zravia} alt="zravia" />
           </div>
-          <div className="col-12 portfolio-title">
+          {/* <div className="col-12 portfolio-title">
             <a
               href="https://www.behance.net/gallery/32344345/ZRAVIA-Music-PortfolioShowcase"
               target="_blank"
@@ -35,11 +36,11 @@ class Featured extends Component {
             >
               <b>zravia</b> - dj music portfolio
             </a>
-          </div>
+          </div> */}
           <div className="col-12 portfolio-item text-center">
             <img className="img-fluid" src={scrim} alt="scrim" />
           </div>
-          <div className="col-12 portfolio-title">
+          {/* <div className="col-12 portfolio-title">
             <a
               href="https://www.behance.net/gallery/57199999/SCRIM-E-Sports-Team-Scrimmage-Finder"
               target="_blank"
@@ -47,11 +48,11 @@ class Featured extends Component {
             >
               <b>scrim</b> - e-sports team scrimmage finder
             </a>
-          </div>
+          </div> */}
           <div className="col-12 portfolio-item text-center">
             <img className="img-fluid" src={encore} alt="scrim" />
           </div>
-          <div className="col-12 portfolio-title">
+          {/* <div className="col-12 portfolio-title">
             <a
               href="https://onemoresong.io/"
               target="_blank"
@@ -59,7 +60,7 @@ class Featured extends Component {
             >
               <b>encore</b> - band setlist app
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     );
