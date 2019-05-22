@@ -26,6 +26,10 @@
   font-weight: 600;
 }
 
+.tagline-container {
+  width: 85%;
+}
+
 .typist-main {
   /* font-size: 4.5rem; */
   height: 150px;

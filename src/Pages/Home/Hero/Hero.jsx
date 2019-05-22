@@ -20,8 +20,8 @@ class Hero extends Component {
             </p>
           </div>
           <div className="contact-container">
-            <a href="mailto:patrickjasongabriel@gmail.com">
-              patrickjasongabriel@gmail.com
+            <a href="mailto:contact@patrickjgabriel.com">
+              contact@patrickjgabriel.com
             </a>
           </div>
         </div>

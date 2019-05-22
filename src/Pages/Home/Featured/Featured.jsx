@@ -15,7 +15,12 @@ class Featured extends Component {
         <div className="row">
           <div className="col-12 portfolio-item text-center">
             <Fade bottom>
-              <img className="img-fluid" src={amps} alt="amps" />
+              <img
+                className="img-fluid"
+                id="portfolio-item"
+                src={amps}
+                alt="amps"
+              />
             </Fade>
           </div>
           {/* <div className="col-12 portfolio-title">
@@ -29,7 +34,12 @@ class Featured extends Component {
           </div> */}
           <div className="col-12 portfolio-item text-center">
             <Fade bottom>
-              <img className="img-fluid" src={zravia} alt="zravia" />
+              <img
+                className="img-fluid"
+                id="portfolio-item"
+                src={zravia}
+                alt="zravia"
+              />
             </Fade>
           </div>
           {/* <div className="col-12 portfolio-title">
@@ -43,7 +53,12 @@ class Featured extends Component {
           </div> */}
           <div className="col-12 portfolio-item text-center">
             <Fade bottom>
-              <img className="img-fluid" src={scrim} alt="scrim" />
+              <img
+                className="img-fluid"
+                id="portfolio-item"
+                src={scrim}
+                alt="scrim"
+              />
             </Fade>
           </div>
           {/* <div className="col-12 portfolio-title">
@@ -57,7 +72,12 @@ class Featured extends Component {
           </div> */}
           <div className="col-12 portfolio-item text-center">
             <Fade bottom>
-              <img className="img-fluid" src={encore} alt="scrim" />
+              <img
+                className="img-fluid"
+                id="portfolio-item"
+                src={encore}
+                alt="scrim"
+              />
             </Fade>
           </div>
           {/* <div className="col-12 portfolio-title">
