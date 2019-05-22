@@ -56,6 +56,10 @@
     width: 100% !important;
   }
 
+  .tagline-container {
+    width: 100%;
+  }
+
   .typist-main {
     font-size: 2.1rem;
   }

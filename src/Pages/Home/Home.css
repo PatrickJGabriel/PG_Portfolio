@@ -16,12 +16,22 @@
 }
 
 .Hero-container {
-  height: 100%;
+  height: 85vh;
+}
+
+@media (min-width: 768px) {
+  .Hero-container {
+    max-height: 550px;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
   .Home-container {
     margin-left: 15px;
     margin-right: 15px;
+  }
+
+  .Hero-container {
+    height: 100%;
   }
 }

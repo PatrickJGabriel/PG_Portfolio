@@ -94,9 +94,9 @@ a:focus:after {
   font-weight: 400;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 768px) {
   .nav-main {
-    padding-bottom: 0;
+    padding-bottom: 0 !important;
   }
 
   #about {
