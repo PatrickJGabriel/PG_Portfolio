@@ -8,6 +8,29 @@
   padding-bottom: 50px;
 }
 
+.card-img-overlay {
+  top: 50px !important;
+  left: 65px !important;
+}
+
+.card-text {
+  font-size: 4.75rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+#featured-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: -27px;
+  margin-left: 4px;
+}
+
+#item-title {
+  margin: 0;
+  padding: 0;
+}
+
 .portfolio-title {
   padding-bottom: 50px;
 }

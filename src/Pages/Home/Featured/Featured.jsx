@@ -1,9 +1,13 @@
 import React, { Component } from "react";
+
+// CSS Animation Library - Fade
 import Fade from "react-reveal/Fade";
-import amps from "../../../Images/amps_portfolio.png";
-import zravia from "../../../Images/zravia_portfolio.png";
-import scrim from "../../../Images/scrim_portfolio.png";
-import encore from "../../../Images/encore_portfolio.png";
+
+// Images
+import amps from "../../../Images/amps_portfolio2.png";
+import zravia from "../../../Images/zravia_portfolio2.png";
+import scrim from "../../../Images/scrim_portfolio2.png";
+import encore from "../../../Images/encore_portfolio2.png";
 
 import "./Featured.css";
 
@@ -13,82 +17,69 @@ class Featured extends Component {
     return (
       <div className="featured-main">
         <div className="row">
-          <div className="col-12 portfolio-item text-center">
+          <div className="col-12 portfolio-item">
             <Fade bottom>
-              <img
-                className="img-fluid"
-                id="portfolio-item"
-                src={amps}
-                alt="amps"
-              />
+              <div className="card">
+                <img className="card-img" src={amps} alt="Card image" />
+                <div className="card-img-overlay">
+                  <p className="card-text" id="featured-title">
+                    Featured Case
+                  </p>
+
+                  <p className="card-text" id="item-title">
+                    amps
+                  </p>
+                </div>
+              </div>
             </Fade>
           </div>
-          {/* <div className="col-12 portfolio-title">
-            <a
-              href="http://www.ampshare.co"
-              target="_blank"
-              onClick={this.props.handleClick}
-            >
-              <b>ENCORE.CO</b>
-            </a>
-          </div> */}
-          <div className="col-12 portfolio-item text-center">
+          <div className="col-12 portfolio-item">
             <Fade bottom>
-              <img
-                className="img-fluid"
-                id="portfolio-item"
-                src={zravia}
-                alt="zravia"
-              />
+              <div className="card">
+                <img className="card-img" src={zravia} alt="Card image" />
+                <div className="card-img-overlay">
+                  <p className="card-text" id="featured-title">
+                    Featured Case
+                  </p>
+                  <p className="card-text" id="item-title">
+                    zravia
+                  </p>
+                </div>
+              </div>
             </Fade>
           </div>
-          {/* <div className="col-12 portfolio-title">
-            <a
-              href="https://www.behance.net/gallery/32344345/ZRAVIA-Music-PortfolioShowcase"
-              target="_blank"
-              onClick={this.props.handleClick}
-            >
-              <b>zravia</b> - dj music portfolio
-            </a>
-          </div> */}
-          <div className="col-12 portfolio-item text-center">
+          <div className="col-12 portfolio-item ">
             <Fade bottom>
-              <img
-                className="img-fluid"
-                id="portfolio-item"
-                src={scrim}
-                alt="scrim"
-              />
+              <div className="card">
+                <img className="card-img" src={scrim} alt="Card image" />
+                <div className="card-img-overlay">
+                  <p className="card-text" id="featured-title">
+                    Featured Case
+                  </p>
+
+                  <p className="card-text" id="item-title">
+                    scrim
+                  </p>
+                </div>
+              </div>
             </Fade>
           </div>
-          {/* <div className="col-12 portfolio-title">
-            <a
-              href="https://www.behance.net/gallery/57199999/SCRIM-E-Sports-Team-Scrimmage-Finder"
-              target="_blank"
-              onClick={this.props.handleClick}
-            >
-              <b>scrim</b> - e-sports team scrimmage finder
-            </a>
-          </div> */}
-          <div className="col-12 portfolio-item text-center">
+          <div className="col-12 portfolio-item ">
             <Fade bottom>
-              <img
-                className="img-fluid"
-                id="portfolio-item"
-                src={encore}
-                alt="scrim"
-              />
+              <div className="card">
+                <img className="card-img" src={encore} alt="Card image" />
+                <div className="card-img-overlay">
+                  <p className="card-text" id="featured-title">
+                    Featured Case
+                  </p>
+
+                  <p className="card-text" id="item-title">
+                    encore
+                  </p>
+                </div>
+              </div>
             </Fade>
           </div>
-          {/* <div className="col-12 portfolio-title">
-            <a
-              href="https://onemoresong.io/"
-              target="_blank"
-              onClick={this.props.handleClick}
-            >
-              <b>encore</b> - band setlist app
-            </a>
-          </div> */}
         </div>
       </div>
     );
