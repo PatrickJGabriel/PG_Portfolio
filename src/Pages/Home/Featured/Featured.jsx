@@ -11,6 +11,10 @@ import encore from "../../../Images/encore_portfolio2.png";
 
 import "./Featured.css";
 
+let darkStyle = {
+  color: "#232323"
+};
+
 class Featured extends Component {
   state = {};
   render() {
@@ -53,11 +57,14 @@ class Featured extends Component {
               <div className="card">
                 <img className="card-img" src={scrim} alt="Card image" />
                 <div className="card-img-overlay">
-                  <p className="card-text" id="featured-title">
+                  <p
+                    className="card-text"
+                    id="featured-title"
+                    style={darkStyle}
+                  >
                     Featured Case
                   </p>
-
-                  <p className="card-text" id="item-title">
+                  <p className="card-text" id="item-title" style={darkStyle}>
                     scrim
                   </p>
                 </div>
@@ -69,11 +76,15 @@ class Featured extends Component {
               <div className="card">
                 <img className="card-img" src={encore} alt="Card image" />
                 <div className="card-img-overlay">
-                  <p className="card-text" id="featured-title">
+                  <p
+                    className="card-text"
+                    id="featured-title"
+                    style={darkStyle}
+                  >
                     Featured Case
                   </p>
 
-                  <p className="card-text" id="item-title">
+                  <p className="card-text" id="item-title" style={darkStyle}>
                     encore
                   </p>
                 </div>
