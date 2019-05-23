@@ -8,18 +8,22 @@ class Footer extends Component {
     return (
       <div className="nav-main row">
         <div className="col-2 brand">
-          <a href="#">Patrick.</a>
+          <a href="https://patrickjgabriel.com/">Patrick.</a>
         </div>
         <div className="col-10 menu">
           <ul>
             <li>
-              <a href="#" id="about">
+              <a
+                href="https://www.behance.net/patricksorianodesign"
+                id="about"
+                target="blank"
+              >
                 behance
               </a>
             </li>
             <li>
-              <a href="#" id="">
-                instagram
+              <a href="https://github.com/PatrickJGabriel" id="" target="blank">
+                github
               </a>
             </li>
           </ul>

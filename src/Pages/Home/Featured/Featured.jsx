@@ -22,74 +22,87 @@ class Featured extends Component {
       <div className="featured-main">
         <div className="row">
           <div className="col-12 portfolio-item">
-            <Fade bottom>
-              <div className="card">
-                <img className="card-img" src={amps} alt="Card image" />
-                <div className="card-img-overlay">
-                  <p className="card-text" id="featured-title">
-                    Featured Case
-                  </p>
-
-                  <p className="card-text" id="item-title">
-                    amps
-                  </p>
+            <a href="http://ampshare.co/" target="blank">
+              <Fade bottom>
+                <div className="card">
+                  <img className="card-img" src={amps} alt="Card image" />
+                  <div className="card-img-overlay">
+                    <p className="card-text" id="featured-title">
+                      Featured Case
+                    </p>
+                    <p className="card-text" id="item-title">
+                      amps
+                    </p>
+                  </div>
                 </div>
-              </div>
-            </Fade>
+              </Fade>
+            </a>
           </div>
           <div className="col-12 portfolio-item">
-            <Fade bottom>
-              <div className="card">
-                <img className="card-img" src={zravia} alt="Card image" />
-                <div className="card-img-overlay">
-                  <p className="card-text" id="featured-title">
-                    Featured Case
-                  </p>
-                  <p className="card-text" id="item-title">
-                    zravia
-                  </p>
+            <a
+              href="https://www.behance.net/gallery/32344345/ZRAVIA-Music-PortfolioShowcase"
+              target="blank"
+            >
+              <Fade bottom>
+                <div className="card">
+                  <img className="card-img" src={zravia} alt="Card image" />
+                  <div className="card-img-overlay">
+                    <p className="card-text" id="featured-title">
+                      Featured Case
+                    </p>
+                    <p className="card-text" id="item-title">
+                      zravia
+                    </p>
+                  </div>
                 </div>
-              </div>
-            </Fade>
+              </Fade>
+            </a>
           </div>
           <div className="col-12 portfolio-item ">
-            <Fade bottom>
-              <div className="card">
-                <img className="card-img" src={scrim} alt="Card image" />
-                <div className="card-img-overlay">
-                  <p
-                    className="card-text"
-                    id="featured-title"
-                    style={darkStyle}
-                  >
-                    Featured Case
-                  </p>
-                  <p className="card-text" id="item-title" style={darkStyle}>
-                    scrim
-                  </p>
+            <a
+              href="https://www.behance.net/gallery/57199999/SCRIM-E-Sports-Team-Scrimmage-Finder"
+              target="blank"
+            >
+              <Fade bottom>
+                <div className="card">
+                  <img className="card-img" src={scrim} alt="Card image" />
+                  <div className="card-img-overlay">
+                    <p
+                      className="card-text"
+                      id="featured-title"
+                      style={darkStyle}
+                    >
+                      Featured Case
+                    </p>
+                    <p className="card-text" id="item-title" style={darkStyle}>
+                      scrim
+                    </p>
+                  </div>
                 </div>
-              </div>
-            </Fade>
+              </Fade>
+            </a>
           </div>
           <div className="col-12 portfolio-item ">
-            <Fade bottom>
-              <div className="card">
-                <img className="card-img" src={encore} alt="Card image" />
-                <div className="card-img-overlay">
-                  <p
-                    className="card-text"
-                    id="featured-title"
-                    style={darkStyle}
-                  >
-                    Featured Case
-                  </p>
+            <a href="https://onemoresong.io/" target="blank">
+              <Fade bottom>
+                <div className="card">
+                  <img className="card-img" src={encore} alt="Card image" />
+                  <div className="card-img-overlay">
+                    <p
+                      className="card-text"
+                      id="featured-title"
+                      style={darkStyle}
+                    >
+                      Featured Case
+                    </p>
 
-                  <p className="card-text" id="item-title" style={darkStyle}>
-                    encore
-                  </p>
+                    <p className="card-text" id="item-title" style={darkStyle}>
+                      encore
+                    </p>
+                  </div>
                 </div>
-              </div>
-            </Fade>
+              </Fade>
+            </a>
           </div>
         </div>
       </div>

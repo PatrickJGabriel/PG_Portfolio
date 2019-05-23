@@ -9,20 +9,28 @@ class Nav extends Component {
     return (
       <div className="nav-main row">
         <div className="col-2 brand">
-          <a href="#" id="home" onClick={this.props.handleClick}>
+          <a href="https://patrickjgabriel.com/" id="home">
             Patrick.
           </a>
         </div>
         <div className="col-10 menu">
           <ul>
             <li>
-              <a href="#" id="about" onClick={this.props.handleClick}>
+              <a
+                href="https://www.behance.net/patricksorianodesign"
+                id="about"
+                target="blank"
+              >
                 behance
               </a>
             </li>
             <li>
-              <a href="#" id="portfolio" onClick={this.props.handleClick}>
-                instagram
+              <a
+                href="https://github.com/PatrickJGabriel"
+                id="portfolio"
+                target="blank"
+              >
+                github
               </a>
             </li>
           </ul>
