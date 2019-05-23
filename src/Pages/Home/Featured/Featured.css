@@ -1,11 +1,44 @@
 .featured-main {
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 80px;
+  /* padding-top: 100px; */
 }
 
 .portfolio-item {
-  padding-bottom: 10px;
+  padding-bottom: 50px;
+}
+
+.card-img-overlay {
+  top: 50px !important;
+  left: 65px !important;
+}
+
+.card {
+  overflow: hidden;
+}
+
+.card img {
+  transition: transform 0.5s ease;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+
+#featured-title {
+  margin-bottom: -27px;
+  margin-left: 4px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+#item-title {
+  margin: 0;
+  padding: 0;
+  font-size: 4.75rem;
+  font-weight: 700;
+  color: #fff;
 }
 
 .portfolio-title {
@@ -13,12 +46,49 @@
 }
 
 .portfolio-title a {
-  font-size: 1.15rem;
+  font-size: 2rem;
   opacity: 0.9;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 1366px) {
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .card-img-overlay {
+    top: 35px !important;
+    left: 50px !important;
+  }
+
+  #featured-title {
+    font-size: 1rem;
+  }
+
+  #item-title {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 375px) {
+  .featured-main {
+    padding-top: 100px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .featured-main {
+    padding-top: 100px;
+  }
+
   .portfolio-title {
     padding-bottom: 25px;
+  }
+
+  .portfolio-item {
+    padding-bottom: 20px;
+  }
+
+  #featured-title,
+  #item-title {
+    display: none;
   }
 }

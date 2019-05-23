@@ -14,7 +14,7 @@ class Home extends Component {
 
   render() {
     return (
-      <div className="Home-container container">
+      <div className="Home-container">
         <Nav handleClick={this.props.handleClick} />
         <div className="Hero-container">
           <Coffee />
