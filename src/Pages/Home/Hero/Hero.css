@@ -26,6 +26,10 @@
   font-weight: 600;
 }
 
+.tagline-container {
+  width: 85%;
+}
+
 .typist-main {
   /* font-size: 4.5rem; */
   height: 150px;
@@ -50,6 +54,10 @@
 @media (min-width: 320px) and (max-width: 480px) {
   .about-container {
     width: 100% !important;
+  }
+
+  .tagline-container {
+    width: 100%;
   }
 
   .typist-main {
