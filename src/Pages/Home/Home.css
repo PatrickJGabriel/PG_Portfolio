@@ -11,8 +11,8 @@
 } */
 
 .Home-container {
-  margin-left: 75px;
-  margin-right: 75px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .Hero-container {
@@ -22,6 +22,7 @@
 @media (min-width: 768px) {
   .Hero-container {
     max-height: 550px;
+    max-width: 1024px;
   }
 }
 
